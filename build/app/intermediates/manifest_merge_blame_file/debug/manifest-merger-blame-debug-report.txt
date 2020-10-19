@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.insurance"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:14:12-74
+14-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:14:29-71
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:9:12-86
+22-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:9:29-83
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:10:12-88
+23-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:10:29-85
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:11:12-88
+24-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:11:29-85
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:12:12-75
+25-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:12:29-72
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:13:12-72
+26-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:13:29-70
+27
+28    <uses-feature android:name="android.hardware.location.gps" />
+28-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:15:12-73
+28-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:15:26-70
+29
+30    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+30-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:16:12-100
+30-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:16:29-97
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:17:12-86
+31-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:17:29-83
+32    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+32-->[:imei_plugin] D:\projects\insurance\build\imei_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-75
+32-->[:imei_plugin] D:\projects\insurance\build\imei_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-72
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[:connectivity] D:\projects\insurance\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+33-->[:connectivity] D:\projects\insurance\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+34    <!--
+35uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+36           <uses-permission android:name="android.permission.BLUETOOTH" />
+37           <uses-permission android:name="android.permission.CAMERA" />
+38           <uses-feature android:name="android.hardware.camera" />
+39           <uses-permission android:name="android.permission.FLASHLIGHT" />
+40           <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" /
+41    -->
+42    <application
+42-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:25:5-52:19
+43        android:name="io.flutter.app.FlutterApplication"
+43-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:26:9-57
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.2.0] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:icon="@mipmap/ic_launcher"
+46-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:28:9-43
+47        android:label="insurance" >
+47-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:27:9-34
+48        <activity
+48-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:29:9-40:20
+49            android:name="com.example.insurance.MainActivity"
+49-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:30:13-41
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:33:13-163
+51            android:hardwareAccelerated="true"
+51-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:34:13-47
+52            android:launchMode="singleTop"
+52-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:31:13-43
+53            android:theme="@style/LaunchTheme"
+53-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:32:13-47
+54            android:windowSoftInputMode="adjustResize" >
+54-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:35:13-55
+55            <intent-filter>
+55-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:36:13-39:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:37:17-68
+56-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:37:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:38:17-76
+58-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:38:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:43:9-45:33
+66            android:name="flutterEmbedding"
+66-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:44:13-44
+67            android:value="2" />
+67-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:45:13-30
+68
+69        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+69-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:46:9-50:20
+69-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:46:19-107
+70            <intent-filter>
+70-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:47:13-49:29
+71                <action android:name="android.intent.action.BOOT_COMPLETED" />
+71-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:48:17-86
+71-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:48:25-76
+72            </intent-filter>
+73        </receiver>
+74        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+74-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:51:9-106
+74-->D:\projects\insurance\android\app\src\main\AndroidManifest.xml:51:19-103
+75
+76        <provider
+76-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-18:20
+77            android:name="androidx.core.content.FileProvider"
+77-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-62
+78            android:authorities="com.example.insurance.fileprovider"
+78-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-64
+79            android:exported="false"
+79-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-37
+80            android:grantUriPermissions="true" >
+80-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-47
+81            <meta-data
+81-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:53
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+83                android:resource="@xml/filepaths" />
+83-->[:flutter_webview_plugin] D:\projects\insurance\build\flutter_webview_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-50
+84        </provider>
+85
+86        <activity
+86-->[:url_launcher] D:\projects\insurance\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+87            android:name="io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity"
+87-->[:url_launcher] D:\projects\insurance\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-92
+88            android:exported="false"
+88-->[:url_launcher] D:\projects\insurance\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+89            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+89-->[:url_launcher] D:\projects\insurance\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\9c7b45efe9c5994c1b0bd217571ee15b\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\9c7b45efe9c5994c1b0bd217571ee15b\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\91978\.gradle\caches\transforms-2\files-2.1\9c7b45efe9c5994c1b0bd217571ee15b\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

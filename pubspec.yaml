@@ -1,0 +1,86 @@
+name: insurance
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+  
+
+dependencies:
+  background_locator: ^1.2.2+1
+  flutter_launcher_icons: ^0.7.4
+  geolocator: ^5.1.5
+  permission_handler: ^3.1.0
+  android_intent: ^0.3.7+4
+  connectivity: ^0.3.2
+  url_launcher: ^3.0.0
+  flutter_webview_plugin: ^0.3.11
+  scratcher: ^1.3.0
+  simple_gesture_detector: ^0.1.4
+  imei_plugin: ^1.2.0
+  all_sensors: ^0.1.3
+  rflutter_alert: ^1.0.3
+  animated_splash: ^1.0.0
+  device_info: ^0.4.2+7
+  http: any
+  flutter:
+   
+    sdk: flutter
+  simple_animations: ^1.3.3
+  cupertino_icons: ^0.1.2
+  flutter_spinkit: ^3.1.0
+  
+flutter_icons:
+  image_path: 'assets/insurance.png'
+  android: true
+  ios: true  
+  adaptive_icon_background: "assets/background.png"
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/insurance.png
+    - images/vasplanet.png
+    - images/SZM.png
+    - assets/img/bg.png
+    - assets/img/black.png
+    - assets/img/white.png
+    - assets/img/green.png
+    - assets/img/red.png
+    - assets/
+    - assets/images/
+    - images/sub.png
+    - images/adornment.png
+    - images/broom.png
+    - images/cleaner.png
+    - images/house.png
+    - images/offices.png
+    - images/paint-roller.png
+    - images/vacuum.png
+    - images/window.png
+
+
+fonts:
+  - family: Pacifico
+    fonts:
+      - asset: assets/fonts/Pacifico-Regular.ttf
+  - family: CM Sans Serif
+    fonts:
+      - asset: assets/fonts/cm_sans_serif_2012.ttf
+  - family: Montserrat
+    fonts:
+      - asset: fonts/Montserrat-Regular.ttf
+      - asset: fonts/Montserrat-Light.ttf
+        weight: 300
+      - asset: fonts/Montserrat-Medium.ttf
+        weight: 500
+      - asset: fonts/Montserrat-SemiBold.ttf
+        weight: 600
+      - asset: fonts/Montserrat-Bold.ttf
+        weight: 700
